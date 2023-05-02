@@ -1,6 +1,6 @@
 # Welcome to Xata's Reactathon Lunch and Learn!
 
-I'm going to be demoing how to take the new Xata workflow for a spin, improving the Database Experience of your Deploy preview workflow inside of a Next.js app deployed to Vercel.
+Today we're going to take the new Xata workflow for a spin, improving the Database Experience of your Deploy preview workflow inside of a Next.js app deployed to Vercel.
 
 Here's a link to the [project doc](https://www.notion.so/Reactathon-L-L-Improving-Deploy-Previews-with-the-new-Xata-workflow-9f2d4652b03c4200a9cc635778f09c4b?pvs=4) we'll be working out of, but to get the project running locally:
 
@@ -34,8 +34,14 @@ Here's a link to the [project doc](https://www.notion.so/Reactathon-L-L-Improvin
     xata schema upload xata.schema.json
 ```
 
-### 5. View DB in browser
+### 5. View DB in browser & generate some random data (100 entries is good enough)
 
 ```bash
     xata browse
+```
+
+### 6. Run the app locally
+
+```bash
+    npm run dev
 ```

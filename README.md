@@ -19,7 +19,7 @@ Here's a link to the [project doc](https://www.notion.so/domitrius-xata/Reactath
 ### 3. Clone the repo
 
 ```bash
-    npx degit https://github.com/domitriusclark/reactathon-lunch-and-learn2
+    npx degit https://github.com/domitriusclark/reactathon-lunch-and-learn project_name
 ```
 
 ### 3. Install dependencies

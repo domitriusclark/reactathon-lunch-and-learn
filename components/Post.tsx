@@ -2,14 +2,13 @@ import { PostsRecord } from "@/lib/xata.codegen";
 
 import UpvoteButton from "./UpvoteButton";
 type Props = {
-  post: PostsRecord;
-  key: string;
+  post: PostsRecord;  
 };
 
-export default function Post({ post, key }: Props) {
+export default function Post({ post }: Props) {
   return (
     <article
-      key={key}
+      key={post.id}
       className="w-full p-4 text-white border-2 rounded-lg border-slate-300 "
     >
       <h1 className="text-xl">{post.title}</h1>

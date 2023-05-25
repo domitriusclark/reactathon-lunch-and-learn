@@ -1,5 +1,5 @@
 import { getXataClient } from "@/lib/xata.codegen";
-import Post from "@/app/components/Post";
+import Post from "@/components/Post";
 
 export default async function Home() {
   const xata = getXataClient();

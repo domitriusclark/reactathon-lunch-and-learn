@@ -24,7 +24,7 @@ export default function Post({ post, key }: Props) {
             {tag}
           </span>
         ))}
-        <UpvoteButton />
+        <UpvoteButton upvote={post.upvote}/>
       </div>
     </article>
   );

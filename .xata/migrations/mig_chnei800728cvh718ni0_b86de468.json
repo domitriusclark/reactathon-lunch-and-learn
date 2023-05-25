@@ -1,0 +1,56 @@
+{
+  "id": "mig_chnei800728cvh718ni0",
+  "checksum": "1:b86de468384ed98bd7e0cf6b7cd1a6b4bd9b3f3ca9b9b06cde29e62616d770a0",
+  "operations": [
+    {
+      "addTable": {
+        "table": "Posts"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "title",
+          "type": "string"
+        },
+        "table": "Posts"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "tags",
+          "type": "multiple"
+        },
+        "table": "Posts"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "slug",
+          "type": "string"
+        },
+        "table": "Posts"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "text",
+          "type": "text"
+        },
+        "table": "Posts"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "createdAt",
+          "type": "datetime"
+        },
+        "table": "Posts"
+      }
+    }
+  ]
+}

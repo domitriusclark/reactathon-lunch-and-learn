@@ -6,7 +6,6 @@ import type {
   XataRecord,
 } from "@xata.io/client";
 
-
 const tables = [
   {
     name: "Posts",
@@ -16,6 +15,7 @@ const tables = [
       { name: "slug", type: "string" },
       { name: "text", type: "text" },
       { name: "createdAt", type: "datetime" },
+      { name: "upvotes", type: "int", notNull: true, defaultValue: "0" },
     ],
   },
 ] as const;

@@ -1,7 +1,6 @@
 import { PostsRecord } from "@/lib/xata.codegen";
 
 import UpvoteButton from "./UpvoteButton";
-
 type Props = {
   post: PostsRecord;
   key: string;
@@ -23,9 +22,8 @@ export default function Post({ post, key }: Props) {
           >
             {tag}
           </span>
-        ))}
-        {/** @ts-expect-error */}
-        <UpvoteButton upvote={post.upvote}/>
+        ))}        
+        <UpvoteButton postId={post.id} upvote={post.upvotes}/>
       </div>
     </article>
   );

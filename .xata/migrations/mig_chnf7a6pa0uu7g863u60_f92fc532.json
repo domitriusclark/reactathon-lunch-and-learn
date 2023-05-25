@@ -1,0 +1,18 @@
+{
+  "id": "mig_chnf7a6pa0uu7g863u60",
+  "parentID": "mig_chnei800728cvh718ni0",
+  "checksum": "1:f92fc532b002dedf1ef35e969f3c65f822c1f10afb7bb3a92dbd66e45188f463",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "upvotes",
+          "type": "int",
+          "notNull": true,
+          "defaultValue": "0"
+        },
+        "table": "Posts"
+      }
+    }
+  ]
+}

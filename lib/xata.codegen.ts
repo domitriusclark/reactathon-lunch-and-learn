@@ -6,6 +6,7 @@ import type {
   XataRecord,
 } from "@xata.io/client";
 
+
 const tables = [
   {
     name: "Posts",

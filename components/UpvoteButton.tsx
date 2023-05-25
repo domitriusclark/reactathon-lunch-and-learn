@@ -11,6 +11,7 @@ export default async function UpvoteButton({
 }: Props) {
   const [optimisticUpvote, addOptimisticUpvote] = useOptimistic(
     { upvotes: upvote, pending: false },
+    // @ts-expect-error
     function upvoteReducer(_, newState: { upvotes: number; pending: boolean }) {
       return newState;
     }
